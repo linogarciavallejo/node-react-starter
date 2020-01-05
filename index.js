@@ -7,7 +7,7 @@ require('./models/Product');
 const app = express();
 
 mongoose.Promise = global.Promise;
-mongoose.connect(process.env.MONGODB_URI || `mongodb+srv://linovallejo:Mish@2020@cluster0-k4pfw.azure.mongodb.net/node-react-starter`, { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || `mongodb+srv://linovallejo:jklsdfjlksdfjkl@cluster0-k4pfw.azure.mongodb.net/node-react-starter`, { useNewUrlParser: true });
 
 app.use(bodyParser.json());
 
